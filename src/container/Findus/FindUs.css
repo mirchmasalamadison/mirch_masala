@@ -1,0 +1,87 @@
+.findus__container{
+    background-color: #fff6ea;
+    display: flex;
+    padding-top: 1px;
+    /* justify-content: space-between;
+    align-items: center; */
+    /* min-height: 100vh; */
+}
+
+.findus__header{
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 3.75rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 3rem;
+    color: #b49c18;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;
+    background-color: #fff6ea;
+}
+
+
+/* .findus__content{
+    padding-left: 6rem;
+
+} */
+.findus__address{
+    color: white;
+    font-family: var(--font-alt);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: .5px;
+    margin-left: 1rem;
+    letter-spacing: 0.04em;
+    color: black;
+}
+
+.findus__subtitle_location{
+    font-family: var(--font-base);
+    color: #d80000;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    /* text-transform: capitalize; */
+    /* font-feature-settings: 'tnum' on, 'lnum' on; */
+    line-height: 29.9px;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-shadow: 1px 1px #000000;
+}
+
+.findus__subtitle_hours{
+    margin-top: 2rem;
+    font-family: var(--font-base);
+    color: #d80000;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-shadow: 1px 1px #000000;
+}
+
+.findus__time{
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    margin-left: 1rem;
+    color: black;
+}
+
+/* .findus__map{
+    border: 4px double #d80000;
+    width: 100%;
+} */

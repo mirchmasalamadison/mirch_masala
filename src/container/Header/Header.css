@@ -1,0 +1,125 @@
+.app__header {
+    /* background-image: url(../../assets/holi_background.png);  */
+    background-color: #fff6ea;
+    border-bottom: 8px double #b49c18;
+}
+
+
+.app__wrapper_info{
+    /* background-color: rgb(23, 63, 39);
+    border-radius: 10px; */
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    
+
+}
+.app__subtitle{
+    font-family: var(--font-base);
+    color: #d80000;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 35px;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    text-shadow: 1px 1px #000000;
+}
+
+.spoon__img{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: #b49c18;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 70px;
+    /* text-align: center; */
+    margin-right: 3rem;
+    text-shadow: 2px 2px #000000;
+
+}
+
+.app__header_text{
+    font-family: var(--font-alt);
+    /* color: var(--color-white); */
+    color: #d80000;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2rem .5rem;
+
+}
+
+.app__wrapper_img{
+    z-index: 2;
+}
+.app__header-img img {
+    width: 80%;
+    
+}
+
+.app__header-button{
+    background-color: rgb(255, 255, 255);
+      color: black;
+      font-family: var(--font-base);
+      margin: 1rem .5rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 28px;
+      font-size: 30px;
+      border: 2px solid rgb(165, 165, 165);
+      padding: 1rem 1.5rem;
+      border-radius: 4px;
+
+      outline: none;
+      cursor: pointer;
+}
+
+.app__header-button:hover{
+    background-color: #fff6ea;
+    color: #d80000;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 3px 3px rgb(0, 0, 0);
+    transition: .5s;
+}
+
+
+.header__button-link{
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5rem; */
+}
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 120px;
+        line-height: 140px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}

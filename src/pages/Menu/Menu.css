@@ -1,0 +1,121 @@
+.menu__header{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 3.75rem;
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 3rem;
+    color: #d83f03;
+
+}
+
+
+.menu__food-map{
+    text-align: center;
+      display: grid;
+  /* grid-template-columns: 1fr; */
+  /* gap: .5em;
+  padding: .5em 0; */
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 1.5em; */
+  position: relative;
+
+}
+
+@media screen and (max-width: 900px){
+    .menu__food-map{
+        text-align: center;
+          display: grid;
+      /* grid-template-columns: 1fr; */
+      /* gap: .5em;
+      padding: .5em 0; */
+      grid-template-columns: 1fr;
+    
+    }
+    
+}
+
+.menu__category{
+    display: flex;
+    /* padding-top: 2.5rem; */
+    /* padding-bottom: 1.5px; */
+    justify-content: center;
+    align-items: center;
+     border-top: 3px double #b49c18;
+    /*border-left: 2px double #b49c18;
+    border-right: 2px double #b49c18; */
+     border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-top: 1.5rem;
+    margin-bottom: .5rem;
+    /* box-shadow: 4px 4px 4px 4px rgb(154, 113, 9); */
+  transition: 0.3s;
+  /* border-radius: 9px; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+  position: relative;
+
+}
+
+.menu__category-heading{
+    /* padding-top: 3rem; */
+    text-align: center;
+    /* padding-top: rem; */
+    padding-bottom: 3px;
+
+}
+
+.menu__food-title{
+    color: rgb(220, 0, 0);
+}
+
+.menu__category-dropdown{
+    padding-bottom: 5px;
+        margin-top: .6rem;
+    margin-left: .4rem;
+    size: 30px;
+    color: #d83f03;
+}
+
+
+.menu__food{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem; 
+  padding: 5px 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fbe5c7;
+
+}
+.menu__food:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.menu__food-header{
+    font-family:var(--font-base);
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.menu__food-text{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+    font-family: var(--font-alt);
+    font-size: 14px;
+}

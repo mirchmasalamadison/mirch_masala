@@ -1,0 +1,130 @@
+nav{
+width: 100%;
+display: flex;
+height: 120px;
+justify-content: space-between;
+align-items: center;
+padding: 3rem 6rem;
+/* position: fixed; */
+z-index: 1000;
+}
+
+nav:hover{
+    box-shadow: 3rem;
+    background-color: rgb(232, 232, 232);
+    transition: .5s;
+    
+}
+
+.nav__logo-image{
+    width: 275px;
+    margin-top: 3px;
+}
+.nav__big-screen_links{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    font-family: var(--font-alt);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 16px;
+}
+.nav__link{
+    padding-left: 3rem;
+    cursor: pointer;
+}
+
+.nav__link:hover{
+    color: #fe0100;
+    font-weight: 600;
+    transition: .2s;
+}
+
+
+
+.nav__small-screen{
+    display: none;
+}
+
+.nav__small-screen_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    transition: .5s ease;
+
+    flex-direction: column;
+    z-index: 5;
+}
+
+.nav__small-screen_menu{
+    font-size: 27px;
+    cursor: pointer;
+    color:#fe0100;
+}
+
+.nav__small-screen_overlay .overlay__close {
+    font-size: 27px;
+    color: #fe0100;
+    cursor: pointer;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+.nav__small-screen_phone{
+    display: flex;
+    align-items: center;
+    color: #fe0100;
+    padding-right: 2rem;
+}
+
+.nav__small-screen_links{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    cursor: pointer;
+    color: #fe0100;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+
+.nav__small-screen_link {
+    padding-bottom: 2rem;
+
+}
+
+
+@media screen and (max-width:1150px){
+    .nav__big-screen_links{
+        display: none;
+    }
+    .nav__small-screen{
+        display: flex;
+    }
+
+    .nav__small-screen_links{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav{
+        padding: 1rem;
+    }
+    .nav__small-screen{
+        display: flex;
+    }
+
+}
+
