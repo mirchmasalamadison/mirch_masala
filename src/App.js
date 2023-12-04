@@ -2,7 +2,7 @@ import React from 'react'
 import {Route, Routes} from 'react-router-dom'
 // import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container'
 import { Layout } from './components'
-import {Home, About, Menu, Contact, Buffet} from './pages'
+import {Home, Menu, Buffet} from './pages'
 import './App.css'
 
 const App = () => {

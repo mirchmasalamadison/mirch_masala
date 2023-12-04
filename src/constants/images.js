@@ -23,7 +23,7 @@ import gericht from '../assets/gericht.png';
 import mirchLogo from '../assets/mirch_logo.png';
 import prayerFlag from '../assets/prayerFlag.png'
 
-export default {
+ const images = {
   prayerFlag,
   bg,
   chef,
@@ -49,3 +49,6 @@ export default {
   gericht,
   mirchLogo
 };
+
+
+export default images

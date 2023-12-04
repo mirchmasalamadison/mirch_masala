@@ -1,7 +1,7 @@
 import React from 'react'
 import './Buffet.css'
 import { images } from '../../constants';
-import FindUs from '../../container/Findus/FindUs'
+
 
 const Buffet = () => {
   return (
